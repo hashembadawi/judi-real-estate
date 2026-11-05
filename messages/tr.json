@@ -1,0 +1,145 @@
+{
+  "HomePage": {
+    "title": "Yarının yaşam alanlarını bugün inşa ediyoruz",
+    "hero": {
+      "title": "Geleceği İnşa Ediyoruz… Hayata İlham Veren Gayrimenkuller",
+      "subtitle": "Judi Gayrimenkul Geliştirme ve İnşaat",
+      "ctaPrimary": "Projelerimizi Keşfedin",
+      "ctaSecondary": "Bize Ulaşın"
+    },
+    "about": {
+      "eyebrow": "Hikâyemiz",
+      "title": "Hakkımızda",
+      "description": "Judi, gayrimenkul geliştirme ve inşaat alanlarında uzmanlaşarak fikirleri özenle tasarlanmış, kaliteli ve kalıcı değer sunan yaşam alanlarına dönüştürür.",
+      "imageAlt": "Judi projesi için modern mimari tasarım",
+      "vision": {
+        "title": "Vizyonumuz",
+        "description": "Hayata ilham veren ve uzun yıllar değerini koruyan projelerde güvenilir bir tercih olmak."
+      },
+      "mission": {
+        "title": "Misyonumuz",
+        "description": "Müşterilerimizin beklentilerini karşılayan yüksek kaliteli gayrimenkul ve inşaat projeleri sunmak."
+      },
+      "values": {
+        "title": "Değerlerimiz",
+        "description": "Yaptığımız her işte kalite, dürüstlük, yenilikçilik ve bağlılık."
+      },
+      "cta": "Daha Fazla Bilgi"
+    },
+    "projects": {
+      "eyebrow": "Çalışmalarımız",
+      "title": "Öne Çıkan Projeler",
+      "viewAll": "Tüm Projeleri Gör"
+    }
+  },
+  "ProjectsPage": {
+    "eyebrow": "Çalışmalarımız",
+    "title": "Projelerimiz",
+    "filters": {
+      "label": "Projeleri filtrele",
+      "all": "Tümü",
+      "residential": "Konut",
+      "commercial": "Ticari",
+      "construction": "İnşaat"
+    }
+  },
+  "ProjectDetailsPage": {
+    "back": "Projelere geri dön",
+    "year": "Yıl",
+    "description": "Proje hakkında",
+    "gallery": "Galeri"
+  },
+  "ContactForm": {
+    "title": "İletişim",
+    "name": "Ad",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "submit": "Mesajı Gönder",
+    "loading": "Gönderiliyor...",
+    "success": "Başarıyla gönderildi"
+  },
+  "WhatsApp": {
+    "label": "WhatsApp üzerinden bize ulaşın",
+    "message": "Merhaba, Judi Gayrimenkul Geliştirme ve İnşaat hakkında bilgi almak istiyorum."
+  },
+  "Navbar": {
+    "label": "Ana gezinme",
+    "tagline": "Gayrimenkul ve İnşaat",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "materials": "Malzemeler",
+    "contact": "İletişim",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "Footer": {
+    "description": "Kalite, vizyon ve kalıcı değer anlayışıyla gayrimenkul geliştiriyor ve inşaat projeleri gerçekleştiriyoruz.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactTitle": "İletişim Bilgileri",
+    "address": "Adres",
+    "addressValue": "Suriye - Halep",
+    "phone": "Telefon",
+    "phoneValue": "00905312646479",
+    "email": "E-posta",
+    "emailValue": "judimensucat@gmail.com",
+    "comingSoon": "Yakında eklenecek",
+    "followUs": "Bizi Takip Edin",
+    "copyright": "Judi Gayrimenkul Geliştirme ve İnşaat. Tüm hakları saklıdır.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "MaterialsPage": {
+    "eyebrow": "Yapı Malzemeleri",
+    "title": "Projeleriniz İçin Kaliteli Malzemeler",
+    "description": "Judi projeleri için seçilmiş yapı malzemelerini keşfedin.",
+    "requestQuote": "Fiyat Teklifi İste",
+    "items": {
+      "concrete": {
+        "name": "Hazır Beton",
+        "description": "Çeşitli inşaat işleri için yüksek kaliteli beton."
+      },
+      "blocks": {
+        "name": "Yapı Blokları",
+        "description": "Verimli yapı ve yalıtım için tasarlanmış dayanıklı bloklar."
+      },
+      "steel": {
+        "name": "İnşaat Demiri",
+        "description": "Dayanıklı beton yapılar için güvenilir inşaat demiri."
+      },
+      "cement": {
+        "name": "Çimento",
+        "description": "İnşaat ve ince işler için uygun kaliteli çimento."
+      },
+      "sand": {
+        "name": "Yıkanmış Kum",
+        "description": "Çeşitli yapı uygulamaları için yıkanmış ve elenmiş kum."
+      },
+      "tiles": {
+        "name": "Zemin Karosu",
+        "description": "Konut ve ticari alanlar için kullanışlı ve şık karolar."
+      }
+    }
+  },
+  "MaterialsModal": {
+    "title": "{material} için fiyat teklifi isteyin",
+    "name": "Ad",
+    "phone": "Telefon",
+    "quantity": "Miktar",
+    "submit": "Talebi Gönder",
+    "loading": "Gönderiliyor...",
+    "success": "Talebiniz başarıyla gönderildi",
+    "close": "Kapat"
+  },
+  "ServicesPage": {
+    "eyebrow": "Hizmetlerimiz",
+    "title": "Sunduğumuz Hizmetler",
+    "subtitle": "Fikir ve tasarımdan uygulama ve teslime kadar entegre gayrimenkul geliştirme ve inşaat çözümleri.",
+    "cta": "Hizmet Talep Et"
+  }
+}

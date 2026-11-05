@@ -1,0 +1,145 @@
+{
+  "HomePage": {
+    "title": "Building the spaces of tomorrow, today",
+    "hero": {
+      "title": "Building the Future… Properties That Inspire Life",
+      "subtitle": "Judi Real Estate Development and Construction",
+      "ctaPrimary": "Explore Our Projects",
+      "ctaSecondary": "Contact Us"
+    },
+    "about": {
+      "eyebrow": "Our Story",
+      "title": "About Us",
+      "description": "Judi specializes in real estate development and construction, turning ideas into thoughtfully designed spaces built for quality and lasting value.",
+      "imageAlt": "Modern architectural design for a Judi project",
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be a trusted choice for real estate projects that inspire life and stand the test of time."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "To deliver high-quality real estate and construction projects that meet our clients’ aspirations."
+      },
+      "values": {
+        "title": "Our Values",
+        "description": "Quality, integrity, innovation, and commitment in everything we do."
+      },
+      "cta": "Read More"
+    },
+    "projects": {
+      "eyebrow": "Our Work",
+      "title": "Featured Projects",
+      "viewAll": "View All Projects"
+    }
+  },
+  "ProjectsPage": {
+    "eyebrow": "Our Work",
+    "title": "Projects",
+    "filters": {
+      "label": "Filter projects",
+      "all": "All",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "construction": "Construction"
+    }
+  },
+  "ProjectDetailsPage": {
+    "back": "Back to projects",
+    "year": "Year",
+    "description": "About the project",
+    "gallery": "Gallery"
+  },
+  "ContactForm": {
+    "title": "Contact Us",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "loading": "Sending...",
+    "success": "Sent successfully"
+  },
+  "WhatsApp": {
+    "label": "Contact us on WhatsApp",
+    "message": "Hello, I would like to ask about Judi Real Estate Development and Construction."
+  },
+  "Navbar": {
+    "label": "Main navigation",
+    "tagline": "Real Estate & Construction",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "materials": "Materials",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Footer": {
+    "description": "We develop real estate and deliver construction projects shaped by quality, vision, and lasting value.",
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact Information",
+    "address": "Address",
+    "addressValue": "Syria - Aleppo",
+    "phone": "Phone",
+    "phoneValue": "00905312646479",
+    "email": "Email",
+    "emailValue": "judimensucat@gmail.com",
+    "comingSoon": "Coming soon",
+    "followUs": "Follow Us",
+    "copyright": "Judi Real Estate Development and Construction. All rights reserved.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "MaterialsPage": {
+    "eyebrow": "Building Materials",
+    "title": "Quality Materials for Your Projects",
+    "description": "Explore a selection of building materials for Judi projects.",
+    "requestQuote": "Request a Quote",
+    "items": {
+      "concrete": {
+        "name": "Ready-Mix Concrete",
+        "description": "High-quality concrete for a wide range of construction work."
+      },
+      "blocks": {
+        "name": "Building Blocks",
+        "description": "Durable blocks designed for efficient building and insulation."
+      },
+      "steel": {
+        "name": "Reinforcing Steel",
+        "description": "Reliable reinforcing steel for durable concrete structures."
+      },
+      "cement": {
+        "name": "Cement",
+        "description": "Quality cement suitable for construction and finishing work."
+      },
+      "sand": {
+        "name": "Washed Sand",
+        "description": "Washed, graded sand for a variety of building applications."
+      },
+      "tiles": {
+        "name": "Floor Tiles",
+        "description": "Practical, elegant tiles for residential and commercial spaces."
+      }
+    }
+  },
+  "MaterialsModal": {
+    "title": "Request a Quote for {material}",
+    "name": "Name",
+    "phone": "Phone",
+    "quantity": "Quantity",
+    "submit": "Send Request",
+    "loading": "Sending...",
+    "success": "Your request was sent successfully",
+    "close": "Close"
+  },
+  "ServicesPage": {
+    "eyebrow": "What We Do",
+    "title": "Our Services",
+    "subtitle": "Integrated real estate development and construction solutions, from concept and design through delivery.",
+    "cta": "Request This Service"
+  }
+}
