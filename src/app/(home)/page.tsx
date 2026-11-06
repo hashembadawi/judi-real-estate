@@ -1,15 +1,9 @@
-"use client";
-
 import Link from "next/link";
-import { useEffect } from "react";
 
 export default function HomePage() {
-  useEffect(() => {
-    window.location.replace("/ar/");
-  }, []);
-
   return (
     <main>
+      <meta httpEquiv="refresh" content="0;url=/ar/" />
       <p>
         يتم تحويلك إلى <Link href="/ar/">الموقع</Link>...
       </p>
