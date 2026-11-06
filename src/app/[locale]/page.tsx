@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Check, Target } from "lucide-react";
 import { hasLocale } from "next-intl";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
 import Reveal from "@/components/Reveal";
@@ -9,13 +9,19 @@ import { projects } from "@/data/projects";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 
-export default async function HomePage() {
-  const t = await getTranslations("HomePage");
-  const locale = await getLocale();
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+  setRequestLocale(locale);
+  const t = await getTranslations("HomePage");
 
   return (
     <main>

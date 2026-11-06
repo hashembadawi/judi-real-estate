@@ -29,8 +29,6 @@ export const metadata: Metadata = {
   description: "شركة جودي لتطوير العقارات والإنشاءات.",
 };
 
-export const instant = false;
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }

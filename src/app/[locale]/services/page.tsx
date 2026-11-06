@@ -7,7 +7,7 @@ import {
   Ruler,
 } from "lucide-react";
 import { hasLocale } from "next-intl";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { services, type ServiceIconName } from "@/data/services";
 import { Link } from "@/i18n/navigation";
@@ -22,15 +22,19 @@ const serviceIcons = {
   Briefcase,
 } satisfies Record<ServiceIconName, typeof Building2>;
 
-export default async function ServicesPage() {
-  const [locale, t] = await Promise.all([
-    getLocale(),
-    getTranslations("ServicesPage"),
-  ]);
+export default async function ServicesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+  setRequestLocale(locale);
+  const t = await getTranslations("ServicesPage");
 
   return (
     <main className="min-h-[calc(100vh-5rem)] bg-stone-50 text-stone-950">
