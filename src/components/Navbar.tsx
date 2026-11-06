@@ -1,6 +1,7 @@
 "use client";
 
-import { ArrowUpRight, Building2, Menu, X } from "lucide-react";
+import Image from "next/image";
+import { ArrowUpRight, Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -48,18 +49,16 @@ export default function Navbar() {
           <Link
             href="/"
             aria-label={t("home")}
-            className="group flex min-w-0 shrink-0 items-center gap-2.5"
+            className="group flex min-w-0 shrink-0 items-center"
           >
-            <span className="inline-flex size-10 items-center justify-center rounded-xl bg-[#C9A227] text-[#1B2A41] shadow-md shadow-black/10 transition-transform duration-300 group-hover:rotate-[-4deg] group-hover:scale-105">
-              <Building2 aria-hidden="true" size={21} strokeWidth={2.2} />
-            </span>
-            <span className="flex min-w-0 flex-col">
-              <span className="text-xl font-bold leading-tight tracking-wide text-white sm:text-2xl">
-                جودي
-              </span>
-              <span className="hidden text-[10px] leading-4 text-white/60 sm:block">
-                {t("tagline")}
-              </span>
+            <span className="inline-flex size-12 items-center justify-center overflow-hidden rounded-xl bg-white shadow-md shadow-black/10">
+              <Image
+                src="/images/judiLogo.jpg"
+                alt=""
+                width={48}
+                height={48}
+                className="size-full scale-150 object-cover transition-transform duration-300 group-hover:scale-[1.65]"
+              />
             </span>
           </Link>
 
