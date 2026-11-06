@@ -62,7 +62,7 @@ export default async function HomePage({
         <Reveal className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-stone-100 shadow-lg">
             <Image
-              src="/images/about-company.webp"
+              src="/images/about-company.jpg"
               alt={t("about.imageAlt")}
               fill
               priority

@@ -23,9 +23,9 @@ export const projects: Project[] = [
       tr: "Palmiye Konut Kompleksi",
     },
     location: {
-      ar: "الرياض، المملكة العربية السعودية",
-      en: "Riyadh, Saudi Arabia",
-      tr: "Riyad, Suudi Arabistan",
+      ar: "سوريا - حلب",
+      en: "Syria - Aleppo",
+      tr: "Suriye - Halep",
     },
     description: {
       ar: "مجمع سكني عصري يجمع بين التصميم المدروس والمساحات المريحة، مع مرافق متكاملة تلبي احتياجات الحياة اليومية.",
@@ -50,9 +50,9 @@ export const projects: Project[] = [
       tr: "Urban İş Merkezi",
     },
     location: {
-      ar: "جدة، المملكة العربية السعودية",
-      en: "Jeddah, Saudi Arabia",
-      tr: "Cidde, Suudi Arabistan",
+      ar: "سوريا - حلب",
+      en: "Syria - Aleppo",
+      tr: "Suriye - Halep",
     },
     description: {
       ar: "وجهة أعمال متعددة الاستخدامات صُممت لتوفر بيئة عمل عملية ومتصلة في قلب المدينة.",
@@ -77,9 +77,9 @@ export const projects: Project[] = [
       tr: "Judi Villaları",
     },
     location: {
-      ar: "الدمام، المملكة العربية السعودية",
-      en: "Dammam, Saudi Arabia",
-      tr: "Dammam, Suudi Arabistan",
+      ar: "سوريا - حلب",
+      en: "Syria - Aleppo",
+      tr: "Suriye - Halep",
     },
     description: {
       ar: "أعمال إنشاء فلل عائلية بتفاصيل متقنة ومواد عالية الجودة، من مرحلة التخطيط حتى التسليم.",
@@ -104,9 +104,9 @@ export const projects: Project[] = [
       tr: "Sahil Konutları",
     },
     location: {
-      ar: "الخبر، المملكة العربية السعودية",
-      en: "Al Khobar, Saudi Arabia",
-      tr: "Al Khobar, Suudi Arabistan",
+      ar: "سوريا - حلب",
+      en: "Syria - Aleppo",
+      tr: "Suriye - Halep",
     },
     description: {
       ar: "مجموعة سكنية تستلهم تصميمها من أجواء الساحل وتوفر مساحات عصرية للعائلات.",
@@ -131,9 +131,9 @@ export const projects: Project[] = [
       tr: "Central Plaza",
     },
     location: {
-      ar: "الرياض، المملكة العربية السعودية",
-      en: "Riyadh, Saudi Arabia",
-      tr: "Riyad, Suudi Arabistan",
+      ar: "سوريا - حلب",
+      en: "Syria - Aleppo",
+      tr: "Suriye - Halep",
     },
     description: {
       ar: "وجهة تجارية تجمع المكاتب والمتاجر والخدمات في مساحة حضرية متصلة.",
@@ -158,9 +158,9 @@ export const projects: Project[] = [
       tr: "Tarihi Konak Restorasyonu",
     },
     location: {
-      ar: "جدة، المملكة العربية السعودية",
-      en: "Jeddah, Saudi Arabia",
-      tr: "Cidde, Suudi Arabistan",
+      ar: "سوريا - حلب",
+      en: "Syria - Aleppo",
+      tr: "Suriye - Halep",
     },
     description: {
       ar: "مشروع ترميم يحافظ على الطابع المعماري الأصيل مع تحديث البنية والخدمات.",
